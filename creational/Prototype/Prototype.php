@@ -18,12 +18,6 @@
 
     echo '<br/>';
 
-    $new_factory = new TerrainFactory(
-                        new EarthSea(-1),
-                        new MarsPlains(),
-                        new EarthForest()
-                    );
-
-    print_r($new_factory->getSea());
-    print_r($new_factory->getPlains());
-    print_r($new_factory->getForest());
+    print_r($factory->getSea());
+    print_r($factory->getPlains());
+    print_r($factory->getForest());
