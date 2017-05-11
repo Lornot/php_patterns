@@ -3,6 +3,10 @@
     abstract class Unit
     {
         abstract function bombardStrength();
+        abstract function defenceStrength();
 
-        /** @todo implement the defence strength */
+        public function getComposite()
+        {
+            return null;
+        }
     }

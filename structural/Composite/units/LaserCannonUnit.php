@@ -1,6 +1,7 @@
 <?php
 
     require_once 'Unit.php';
+    require_once __DIR__.'/../exceptions/UnitException.php';
 
     class LaserCannonUnit extends Unit
     {
@@ -8,4 +9,10 @@
         {
             return 44;
         }
+
+        public function defenceStrength()
+        {
+            return 1;
+        }
+        
     }
